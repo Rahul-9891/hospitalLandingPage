@@ -70,12 +70,12 @@ const MainLandingpage = () => {
 
 const Services = () => (
   <section className="services">
-    <div className='service-headlines'>
-    <h2>Our Services</h2>
-    <p id='service-p'>
-      We provide the most full medical services, so every person could have the
-      opportunity to receive qualitative medical help.
-    </p>
+    <div className='s'>
+      <h2>Our Services</h2>
+      <p id='service-p'>
+        We provide the most full medical services, so every person could have the
+        opportunity to receive qualitative medical help.
+      </p>
     </div>
     <div className="services-cards">
       <div className="service-card">

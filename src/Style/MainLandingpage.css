@@ -1,22 +1,17 @@
 .App {
   text-align: center;
-  /* max-width: 1440; */
 }
 
 .landingpage {
-  /* width: 1441px; */
+  width: 1441px;
   height: 953px;
 
 }
-
-
 
 .App-header {
   margin-top: 2rem;
   display: flex;
   height: 1rem;
-  /* width: 90vw; */
-  /* flex-direction: row; */
   justify-content: space-between;
   align-items: center;
   margin: 1rem 6rem;
@@ -33,13 +28,10 @@
   width: 159px;
   height: 43px;
   top: 40px;
-  /* left: 120px; */
   font-family: Source Sans Pro;
   font-size: 34px;
   font-weight: 700;
-  line-height: 42.74px;
-  /* text-align: left; */
-  
+  line-height: 42.74px; 
 
 }
 
@@ -64,7 +56,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #0073FF;
-  /* font-weight: bold; */
+  
 }
 
 .contact-btn {
@@ -83,6 +75,7 @@ nav ul li a {
 }
 
 .App-main {
+  
   display: flex;
   justify-content: space-between;
   padding: 2rem;
@@ -114,7 +107,6 @@ nav ul li a {
 }
 
 .intro p {
-  /* font-size: 1rem; */
   color: #002348;
   width: 546px;
   height: 122px;
@@ -127,9 +119,6 @@ nav ul li a {
   font-weight: 400;
   line-height: 39px;
   text-align: left;
-
-
-
 }
 
 .buttons {
@@ -154,10 +143,7 @@ nav ul li a {
   height: 672px;
   top: 141px;
   left: 745px;
-
-
   padding: 2rem;
-  /* height: 10rem; */
   border-radius: 10px;
 }
 
@@ -180,31 +166,37 @@ nav ul li a {
 }
 
 
+/* --------------------------------------------------------- */
+/* Section - 2 */
 
 .services {
-  /* max-width: 1440px; */
-  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  width: 1441px;
+  height: 520px;
   text-align: center;
   padding: 2rem 0;
-  width: 100vw;
-
-
 }
 
 
-.services h2 {
+.service-headlines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
+}
+
+.services h2 {
   height: 78px;
   font-family: Source Sans Pro;
   font-size: 54px;
   font-weight: 600;
   line-height: 78px;
-
-
 }
 
 #service-p {
   max-width: 546px;
+  overflow: hidden;
   margin-left: 30rem;
   height: 78px;
   font-family: Source Sans Pro;
@@ -218,7 +210,6 @@ nav ul li a {
 .services-cards {
   margin-top: 3rem;
   display: flex;
-  /* justify-content: center; */
   margin: 1rem 6rem;
   gap: 5rem;
 
@@ -231,11 +222,11 @@ nav ul li a {
 
 }
 
+
 .service-card img {
   margin-top: 2rem;
   color: #007DF2;
   border: 1px 0px 0px 0px;
-
   margin-right: 6rem;
 }
 
@@ -254,40 +245,28 @@ nav ul li a {
 
 
 
-
-
+/* ----------------------------------------------------- */
+/* section 3 */
 
 .innovation {
+  max-width: 1440px;
   display: flex;
-  margin: 0 6rem;
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* max-width: 1140px; */
-  /* margin: 0rem 6rem; */
-  /* align-items: center; */
-  /* padding-left: 6rem; */
-  /* justify-content: space-around; */
-  margin-top: 8rem;
-  display: flex;
-  /* width: 1440px; */
-  gap: 3rem;
-  
+  justify-content: space-between;
+  margin: 0rem 6rem;
+  margin-top: 16rem;
   background: #FFFFFF;
 }
 
 #summery{
   display: flex;
   flex-direction: column;
+  height: 600px;
+  justify-content: center;
 }
 
-
+ 
 .innovation h2 {
-  margin-top: 14rem;
-  /* width: 559px; */
-  /* padding-left: 6rem; */
-  height: 78px;
-  gap: 0px;
-
+  overflow: hidden;
   font-family: Source Sans Pro;
   font-size: 54px;
   font-weight: 600;
@@ -297,21 +276,18 @@ nav ul li a {
 }
 
 .innovation p {
-
-  
   font-family: Source Sans Pro;
   font-size: 20px;
   font-weight: 400;
   line-height: 39px;
-  text-align: left;
+  text-align: center;
   color: #002348;
 }
 
 .learn-more-btn {
   width: 186px;
-  height: 60px;
-  
-border-radius: 25px;  
+  height: 60px; 
+  border-radius: 25px;  
   background-color: #007bff;
   color: #fff;
   padding: 0.75rem 1rem;
@@ -336,16 +312,9 @@ border-radius: 25px;
 
 .innovation-card {
   margin-left: 2rem;
-  padding: 1rem;
   border-radius: 5px;
-  width: 150px;
   text-align: center;
-  width: 282px;
   height: 236px;
-  top: 2079px;
-  left: 724px;
-  gap: 0px;
- 
   box-shadow: 0px 10px 50px 25px #003B7913;
 
 }
@@ -374,38 +343,33 @@ border-radius: 25px;
 
 
 /* -------------------------------------- */
+/* section 4 */
 
 .speciallist{
-
-margin-left: 6rem;
-/* gap: 5rem; */
-
 background-color: #F8FDFF;
+}
+
+.mainspecialist{
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 6rem;
 }
 
 
 .mainspecialist h1{
-  /* width: 691px; */
 height: 78px;
-gap: 0px;
-
 font-family: Source Sans Pro;
 font-size: 54px;
 font-weight: 600;
 line-height: 78px;
 text-align: center;
 color: #003B79;
-
-
 }
 
 #mainspecialist-p{
-  /* width: 546px; */
 height: 78px;
-top: 3200px;
-/* left: 447px; */
-gap: 0px;
-
 font-family: Source Sans Pro;
 font-size: 20px;
 font-weight: 400;
@@ -417,52 +381,36 @@ color: #002348;
 .cards{
   display: flex;
   gap: 5rem;
-  /* justify-content: space-between; */
 }
 
 .card{
-  display: flex;
-  width: 274px;
+display: flex;
+width: 274px;
 height: 448px;
-top: 3346px;
-/* left: 120px; */
-gap: 0px;
-
 box-shadow: 0px 10px 50px 25px #003B7913;
 background-color: #AED3E2;
-;
-
 }
 
 .names{
 width: 100%;
 margin-top: 21rem;
 background-color:  #FFFFFF;
-;
 }
 
 
 /* --------------------------------- */
+/* section 5 */
 
 .mainreview{
-  width: 1440px;
 height: 600px;
-top: 3930px;
-gap: 0px;
-
 margin-left: 6rem;
 background-color: #F8FDFF;
-;
 
 }
 
 .mainreview h1{
   width: 600px;
   height: 78px;
-  top: 4010px;
-  left: 121px;
-  gap: 0px;
-
   font-family: Source Sans Pro;
   font-size: 54px;
   font-weight: 600;
@@ -474,7 +422,7 @@ background-color: #F8FDFF;
 
 .review-card{
   display: flex;
-  gap: 11.2rem;
+  gap: 6rem;
   width: 100%;
 }
 
@@ -496,18 +444,13 @@ box-shadow: 0px 10px 50px 25px #003B7913;
   display: flex;
   width: 100%;
   gap: 1.5rem;
-  /* height: 100%; */
   margin-top: 1rem;
   max-height: 200px;
-  /* background-color: green; */
-  /* align-items: flex-start; */
 }
 
 .userrevi img{
   margin-top: 1rem;
   margin-left: 4rem;
-  
-  /* object-fit: cover; */
 }
 
 .userrevi h6{
@@ -518,13 +461,10 @@ box-shadow: 0px 10px 50px 25px #003B7913;
 
 .cards-review p{
  text-align: center;
- /* justify-content: center; */
   width: 442px;
 height: 106px;
-/* top: 4204px; */
 left: 189px;
 gap: 0px;
-
 font-family: Source Sans Pro;
 font-size: 20px;
 font-weight: 400;
@@ -535,9 +475,9 @@ overflow: hidden;
 }
 
 /* ------------------------------------------------------ */
+/* Section6 */
 
 .feedback{
-  /* width: 1440px; */
   height: 28rem;
 background-color: #007FF4;
 border-radius: 15px;
@@ -547,17 +487,14 @@ margin: 0 6rem;
 
 .feedback h1{
   padding-top: 2rem;
-  /* text-align: center; */
 font-family: Source Sans Pro;
 font-size: 48px;
 font-weight: 600;
 line-height: 78px;
-/* text-align: left; */
 color:#FFFFFF;
 }
 
 .feedback p {
-  /* padding-bottom: 3rem; */
   margin-top: -2rem;
   font-family: Source Sans Pro;
   font-size: 20px;
@@ -586,7 +523,6 @@ height: 39px;
 top: 4973px;
 left: 334px;
 padding-left: 3rem;
-/* margin-left: 5rem; */
 font-family: Source Sans Pro;
 font-size: 20px;
 font-weight: 400;
@@ -611,8 +547,6 @@ font-size: 16px;
 font-weight: 700;
 line-height: 20.11px;
 text-align: center;
-
-
 }
 
 
@@ -623,7 +557,6 @@ text-align: center;
   margin:0 6rem;
   height: 200px;
   margin-top: 5rem;
-  /* text-align: center; */
   
 }
 
@@ -638,11 +571,8 @@ text-align: center;
 }
 
 .footer-left{
-  width: 159px;
+width: 159px;
 height: 43px;
-top: 5318px;
-left: 121px;
-gap: 0px;
 font-family: Source Sans Pro;
 font-size: 34px;
 font-weight: 700;
@@ -652,27 +582,23 @@ color: #0073FF;
 }
 
 .footericons{
+  margin: 0 6rem;
+  max-width: 1440px;
   height: 241px;
-  top: 5412px;
-  gap: 0px;
-
   background-color:#ECF4FF;
 }
 
 .social-icons{
-  /* width: 1440px; */
 
   display: flex;
-  margin-left: 5rem;
   gap: 3rem;
   padding-top: 4rem;
-  /* margin-top: 4rem; */
-  /* justify-content: flex-start; */
+ 
 }
 
 .social-{
   display: flex;
-  margin-left: 5rem;
+
   width: 213px;
 height: 34px;
 top: 5528px;
@@ -687,3 +613,12 @@ text-align: left;
 }
 
 
+/* responsive UI */
+
+@media (max-width: 1300px) {
+
+  .innovation{
+    /* gap: 3rem; */
+    
+  }
+}
