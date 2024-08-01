@@ -22,7 +22,7 @@ const MainLandingpage = () => {
         <div className='Navbar'>
           <header className="App-header">
             <div>
-              <div className="logo">MediCare+</div>
+              <div className="logo"><span className='medispan'>Medi</span><span className='carespan'>Care+</span></div>
             </div>
             <div className='right-nav'>
               <nav>
@@ -268,7 +268,7 @@ const Feedback = () => (
       </div>
       <footer>
         <div className='right-footer'>
-          <div className="footer-left">Medi<span>Care+</span></div>
+          <div className="footer-left"><span className='medispan'>Medi</span><span className='carespan'>Care+</span></div>
           <div className="footer-right">
             <a href="#home">Home</a>
             <a href="#about">About</a>

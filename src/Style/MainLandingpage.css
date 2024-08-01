@@ -39,8 +39,16 @@
   font-weight: 700;
   line-height: 42.74px;
   /* text-align: left; */
-  color: #0073FF;
+  
 
+}
+
+.carespan{
+  color: orange;
+}
+
+.medispan{
+  color: #0073FF;
 }
 
 nav ul {
