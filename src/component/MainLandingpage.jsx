@@ -53,9 +53,9 @@ const MainLandingpage = () => {
               <button className="departments-btn">Departments</button>
             </div>
           </section>
-          <section className="profile">
+          <div className="profile">
             {/* <div className="profile-name">Anand Chaurasia</div> */}
-          </section>
+          </div>
         </main>
       </div>
       <Services />
@@ -66,18 +66,17 @@ const MainLandingpage = () => {
     </>
   )
 
-
-
-
 }
 
 const Services = () => (
   <section className="services">
+    <div className='service-headlines'>
     <h2>Our Services</h2>
     <p id='service-p'>
       We provide the most full medical services, so every person could have the
       opportunity to receive qualitative medical help.
     </p>
+    </div>
     <div className="services-cards">
       <div className="service-card">
         <img src={tooth} alt="tooth" />
