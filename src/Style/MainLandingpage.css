@@ -72,6 +72,7 @@ nav ul li a {
   background-color: #007FF4;
   border-radius: 25px;
   border: none;
+  cursor: pointer;
 }
 
 .App-main {
@@ -212,7 +213,7 @@ nav ul li a {
   display: flex;
   margin: 1rem 6rem;
   gap: 5rem;
-
+  cursor: pointer;
 }
 
 .service-card {
@@ -308,6 +309,7 @@ nav ul li a {
   justify-items: center;
   align-items: center;
   margin-top: 2rem;
+  cursor: pointer;
 }
 
 .innovation-card {
@@ -381,6 +383,7 @@ color: #002348;
 .cards{
   display: flex;
   gap: 5rem;
+  cursor: pointer;
 }
 
 .card{
@@ -547,6 +550,7 @@ font-size: 16px;
 font-weight: 700;
 line-height: 20.11px;
 text-align: center;
+cursor: pointer;
 }
 
 
@@ -593,6 +597,7 @@ color: #0073FF;
   display: flex;
   gap: 3rem;
   padding-top: 4rem;
+  cursor: pointer;
  
 }
 
